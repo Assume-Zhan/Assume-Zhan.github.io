@@ -460,11 +460,11 @@ h2.title span{
 }
 .carousel-indicators li {
     display: inline-block;
-    width: 11px;
-    height: 11px;
+    width: 0px;
+    height: 0px;
 }
 .carousel-indicators {
-    bottom: -25px;
+    bottom: -5px;
 }
 .carousel-indicators .active {
     background-color: #09C3E7;
@@ -475,9 +475,9 @@ h2.title span{
 
 
 #testimonial-carousel{
-	width: 63%;
-	margin: 0 auto;
-	margin-top: -10px;
+	width: 50%;
+	margin: auto;
+	margin-top: 0px;
 }
 #testimonial-carousel p{
 	color: #919191;
