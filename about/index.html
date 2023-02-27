@@ -1,28 +1,69 @@
-<><!-- Represent document type -->
-<!DOCTYPE html>
-
-<!-- Root tag : html -->
-<html lang="en" data-default-color-scheme=auto>
+<html>
 
     <head>
-        <title>Assume page - About</title>
-        <link rel="stylesheet" href="../css/BasicTagStyle.css">
+
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet"> 
+		<link rel="stylesheet" href="../css/font-awesome.min.css"> 
+		<link rel="stylesheet" href="../css/animate.css"> 
+		<link rel="stylesheet" href="../css/prettyPhoto.css"> 
+		<link rel="stylesheet" href="../css/style.css"> 
+
     </head>
 
-    <body>
-        <!-- h1 defines the largest heading -->
-        <h1>About</h1>
-        <hr>
+    <body data-spy="scroll" data-target=".main-nav">
 
-        <!-- The smallest heading is h6 -->
-        <h6>I'm a nthu student</h6>
+		<!-- section menu start -->
+		<section class="section-menu">
+			<div class="navbar navbar-default main-nav" role="navigation" >
+				<div class="container" >
+					<div class="navbar-header">
+						<button class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse">
+							<span class="sr-only"></span>
+							<span class="icon-bar"></span>
+						</button>
+					
+						<p class="navbar-brand">Assume-Zhan</p>
+					</div>  <!-- navbar-header end -->
+					<!-- main nav  -->
 
-        <p title="Here is my introduction">
-            There is nothing,<br>
-            since I am still learning html to write a web page
-        </p>
+					<div class="collapse navbar-collapse navigation" id="bs-example-navbar-collapse-1" role="navigation">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="../index.html">Home </a></li>
+							<li class="active"><a href="#section-profile">About me </a></li>
+							<li><a href="../skills/index.html">Skills </a></li>
+							<li><a href="../interest/index.html">Interest </a></li>
+							<li><a href="../other/index.html">Other </a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</div>
+		</section>
+		<!-- section menu end -->
 
-        <p style="text-align:center;"><a href="../index.html" >Back to main page</a></p>
+        <!-- section profile start -->
+
+            <section id="section-profile" class="section-padding">
+                <div class="profile-bg visible-md visible-lg"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 col-sm-12 pull-right">
+                            <div class="profile-desc wow fadeInRight">
+                                <h2>一些基本的東西</h2>
+        <br/>
+		
+                                            <p class="text-grey animated bounceInUp">
+                                                Some thing is here
+                                            </p>
+											<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                            
+                            </div>
+                            
+                            
+                        </div>
+                    </div> <!-- row end -->
+                </div><!-- container end -->
+            </section>
+            <!-- section profile end -->
 
     </body>
 
