@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(52, 55, 56);
+}
+
+h1 {
+  color: white;
+  font-family: monospace;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+}
+
+h5 {
+  color: white;
+  text-align: center;
+}
+
+h6 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+a {
+  color: white;
+  font-family: verdana;
+  font-size: 20px;
+}
